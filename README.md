@@ -1,10 +1,7 @@
 # site-scanner
-A website scanner used to gater any/all necessary informtion for a specific webite.
+A tool for performing nmap scan, whois, ip address resolves, pulls robots.txt, etc. Gathered data is stored by domain seperately in the initially generated `Sites/` directory, which also includes a full report of the scans.
 
 ```bash
 $ python scanner.py
 $ python3 scanner.py
 ```
-
-When running an environment directory is create `./Sites`, each domain that is run will be stored seperately containing the scan results.
-
